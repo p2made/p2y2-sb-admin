@@ -24,7 +24,8 @@
 	"minimum-stability": "dev",
 
 	"require": {
-		"p2made/p2y2-things": "dev-5.0-dev"
+		"p2made/p2y2-things": "dev-5.0-dev",
+		"p2made/p2y2-things-demo": "dev-5.0-dev"
 	},
 	"autoload": {
 		"psr-4": {
