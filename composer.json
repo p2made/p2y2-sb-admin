@@ -1,5 +1,5 @@
 {
-	"name": "p2made/p2y2-sb-admin-theme",
+	"name": "p2made/p2y2-sb-admin",
 	"description": "SB Admin from Start Bootstrap, http://startbootstrap.com/, as a backend UI for Yii 2 Framework.",
 	"type": "yii2-extension",
 	"keywords": [
@@ -17,14 +17,14 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/p2made/p2y2-sb-admin-theme/issues?state=open",
-		"source": "https://github.com/p2made/p2y2-sb-admin-theme"
+		"issues": "https://github.com/p2made/p2y2-sb-admin/issues?state=open",
+		"source": "https://github.com/p2made/p2y2-sb-admin"
 	},
 
 	"minimum-stability": "dev",
 
 	"require": {
-		"p2made/p2y2-things": "^5.0"
+		"p2made/p2y2-things": "*"
 	},
 	"autoload": {
 		"psr-4": {
