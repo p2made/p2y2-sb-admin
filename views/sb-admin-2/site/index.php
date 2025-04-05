@@ -15,9 +15,9 @@ use yii\bootstrap5\ButtonDropdown;
 use yii\bootstrap5\ActiveForm;
 use p2m\helpers\FA;
 
-p2m\sbAdmin\assets\SBAdmin2Asset::register($this);
-p2m\assets\p2TimelineAsset::register($this);
-p2m\assets\p2MorrisAsset::register($this);
+p2m\sbAdmin\assets\P2SBAdmin2Asset::register($this);
+p2m\assets\P2TimelineAsset::register($this);
+p2m\assets\P2MorrisAsset::register($this);
 
 // DEMO ONLY _DON'T_ use this in your production copy.
 p2m\demo\assets\MorrisDemoData::register($this);
