@@ -1,10 +1,10 @@
 # P2 SB Admin Theme 5.0.0
 
-[![License](https://poser.pugx.org/p2made/p2y2-sb-admin-theme/license)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
-[![Total Downloads](https://poser.pugx.org/p2made/p2y2-sb-admin-theme/downloads)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
-[![Monthly Downloads](https://poser.pugx.org/p2made/p2y2-sb-admin-theme/d/monthly)](https://packagist.org/packages/p2made/yii2-p2y2-things)
-[![Latest Stable Version](https://poser.pugx.org/p2made/p2y2-sb-admin-theme/v/stable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
-[![Latest Unstable Version](https://poser.pugx.org/p2made/p2y2-sb-admin-theme/v/unstable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![License](https://poser.pugx.org/p2made/p2y2-sb-admin/license)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Total Downloads](https://poser.pugx.org/p2made/p2y2-sb-admin/downloads)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Monthly Downloads](https://poser.pugx.org/p2made/p2y2-sb-admin/d/monthly)](https://packagist.org/packages/p2made/yii2-p2y2-things)
+[![Latest Stable Version](https://poser.pugx.org/p2made/p2y2-sb-admin/v/stable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Latest Unstable Version](https://poser.pugx.org/p2made/p2y2-sb-admin/v/unstable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
 
 ---
 
@@ -27,19 +27,19 @@ The preferred way to install P2 SB Admin Theme is through [composer](http://getc
 Depending on your composer installation, run *one* of the following commands:
 
 ```
-composer require p2made/p2y2-sb-admin-theme "^5.0"
+composer require p2made/p2y2-sb-admin "dev-5.0.0-dev"
 ```
 
 or
 
 ```
-php composer.phar require p2made/p2y2-sb-admin-theme "^5.0"
+php composer.phar require p2made/p2y2-sb-admin "dev-5.0.0-dev"
 ```
 
 Alternatively add:
 
 ```
-		"p2made/p2y2-sb-admin-theme": "^5.0"
+		"p2made/p2y2-sb-admin": "dev-5.0.0-dev"
 ```
 
 to the requires section of your `composer.json` file & P2 SB Admin Theme will be installed next time you run `composer update`.
@@ -55,7 +55,7 @@ Once the extension is installed, you can have a *preview* by reconfiguring the p
 		'view' => [
 			'theme' => [
 				'pathMap' => [
-					'@app/views' => '@vendor/p2made/p2y2-sb-admin-theme/views/sb-admin-2',
+					'@app/views' => '@vendor/p2made/p2y2-sb-admin/views/sb-admin-2',
 				],
 			],
 		],
@@ -111,7 +111,7 @@ P2 SB Admin Theme uses [P2Y2Things](https://github.com/p2made/yii2-p2y2-things) 
 
 ## Customization
 
-- Copy files from `vendor/p2made/p2y2-sb-admin-theme/views-preview/sb-admin-2` (or other theme) to `@app/views`.
+- Copy files from `vendor/p2made/p2y2-sb-admin/views-preview/sb-admin-2` (or other theme) to `@app/views`.
 - Remove the custom `view` configuration from your application by deleting the path mappings, if you have made them before.
 - Edit your views adhering to html markup `http://startbootstrap.com/template-overviews/sb-admin-2/` & the example views.
 
@@ -122,7 +122,7 @@ If you want to use the layout files *without* modifying them, then use this slig
 		'view' => [
 			'theme' => [
 				'pathMap' => [
-					'@app/views/layouts' => '@vendor/p2made/p2y2-sb-admin-theme/views/sb-admin-2/layouts',
+					'@app/views/layouts' => '@vendor/p2made/p2y2-sb-admin/views/sb-admin-2/layouts',
 				],
 			],
 		],
