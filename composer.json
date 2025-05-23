@@ -22,7 +22,7 @@
 	},
 
 	"minimum-stability": "dev",
-
+	"prefer-stable" : true,
 	"require": {
 		"p2made/p2y2-things": "dev-5.0-dev"
 	},

@@ -17,7 +17,7 @@ use yii\bootstrap\Html;
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
-	<?= $this->render('_html-header.php', []) ?>
+	<?= $this->render('_html-head.php', []) ?>
 <body>
 	<?php $this->beginBody() ?>
 	<div class="wrapper">
